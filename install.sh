@@ -13,7 +13,7 @@ Usage: install.sh [--no-install] [--tag <tag>] [--archive-url <url>]
 
 Options:
   --no-install     Skip running `npm install` (assume deps are present)
-  --tag <tag>      Download a specific GitHub tag (e.g. v1.2.0)
+  --tag <tag>      Download a specific GitHub tag (e.g. v1.0.0)
   --archive-url    Download a specific tar.gz archive URL
   -h, --help       Show this help
 EOF

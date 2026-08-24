@@ -1,6 +1,6 @@
 {
   "name": "drupal-cli",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "Node.js CLI wrapper to run phpcs and drupal-check for Drupal projects",
   "bin": {
     "drupal-cli": "dist/cli.js"
