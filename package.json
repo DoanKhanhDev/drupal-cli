@@ -9,7 +9,7 @@
     "build": "tsc -p tsconfig.json",
     "start": "node ./dist/cli.js",
     "test": "echo \"No tests defined\" && exit 0",
-    "postinstall": "chmod +x ./dist/cli.js || true"
+    "setexecutable": "chmod +x ./dist/cli.js"
   },
   "keywords": ["drupal", "phpcs", "drupal-check", "cli"],
   "author": "",

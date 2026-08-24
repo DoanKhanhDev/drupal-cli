@@ -58,6 +58,8 @@ install_from_dir() {
     fi
   fi
 
+  npm run setexecutable || true
+
   CLI_DIST="dist/cli.js"
   if [ ! -f "$CLI_DIST" ]; then
     echo "Build artifact not found: $CLI_DIST" >&2
