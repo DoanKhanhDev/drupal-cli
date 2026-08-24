@@ -1,0 +1,29 @@
+{
+  "name": "drupal-cli",
+  "version": "0.1.1",
+  "description": "Node.js CLI wrapper to run phpcs and drupal-check for Drupal projects",
+  "bin": {
+    "drupal-cli": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node ./dist/cli.js",
+    "test": "echo \"No tests defined\" && exit 0",
+    "postinstall": "chmod +x ./dist/cli.js || true"
+  },
+  "keywords": ["drupal", "phpcs", "drupal-check", "cli"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+  ,
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+  ,
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
