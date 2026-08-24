@@ -23,6 +23,7 @@ EOF
 NO_INSTALL=false
 TAG=""
 ARCHIVE_URL=""
+tmpdir=""
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
