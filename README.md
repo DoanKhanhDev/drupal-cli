@@ -10,6 +10,11 @@ Prerequisites
 Install
 
 ```bash
+curl -fsSL https://raw.githubusercontent.com/DoanKhanhDev/drupal-cli/main/install.sh | bash -s -- --tag latest
+```
+Install for developer
+
+```bash
 # Install Node dev deps
 npm install
 
@@ -22,16 +27,6 @@ npm run build
 npm install -g .
 ```
 
-Install script
-
-The repository includes an `install.sh` helper that builds and installs the CLI. Usage:
-
-```bash
-# Global install
-./install.sh
-
-# Skip `npm install` if deps are already present
-./install.sh --no-install
 ```
 
 Usage
